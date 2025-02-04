@@ -1,0 +1,39 @@
+# .NET Core/ASP.NET Core
+bin/
+obj/
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and debug files
+*.log
+
+# NuGet packages
+*.nupkg
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Dotnet-specific files
+project.lock.json
+project.assets.json
+
+# Configuration and secrets
+appsettings.json
+appsettings.Development.json
+secrets.json
+
+# Publish output
+publish/
+*.publishsettings
+
+# Backup and temporary files
+*.bak
+~$*
