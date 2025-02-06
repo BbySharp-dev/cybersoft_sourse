@@ -1,0 +1,15 @@
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/bin/Debug/net8.0/Singleton
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/bin/Debug/net8.0/Singleton.deps.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/bin/Debug/net8.0/Singleton.runtimeconfig.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/bin/Debug/net8.0/Singleton.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/bin/Debug/net8.0/Singleton.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/refint/Singleton.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/Singleton.genruntimeconfig.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/Singleton/obj/Debug/net8.0/ref/Singleton.dll

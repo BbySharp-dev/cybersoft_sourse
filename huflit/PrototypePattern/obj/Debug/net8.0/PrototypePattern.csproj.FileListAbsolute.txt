@@ -1,0 +1,15 @@
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/bin/Debug/net8.0/PrototypePattern
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/bin/Debug/net8.0/PrototypePattern.deps.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/bin/Debug/net8.0/PrototypePattern.runtimeconfig.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/bin/Debug/net8.0/PrototypePattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/bin/Debug/net8.0/PrototypePattern.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/refint/PrototypePattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/PrototypePattern.genruntimeconfig.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/PrototypePattern/obj/Debug/net8.0/ref/PrototypePattern.dll
