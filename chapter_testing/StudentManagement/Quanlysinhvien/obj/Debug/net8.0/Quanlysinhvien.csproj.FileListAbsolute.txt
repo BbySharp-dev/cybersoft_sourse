@@ -1,0 +1,12 @@
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/bin/Debug/net8.0/Quanlysinhvien.deps.json
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/bin/Debug/net8.0/Quanlysinhvien.dll
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/bin/Debug/net8.0/Quanlysinhvien.pdb
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/Quanlysinhvien.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/Quanlysinhvien.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/Quanlysinhvien.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/Quanlysinhvien.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/Quanlysinhvien.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/Quanlysinhvien.dll
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/refint/Quanlysinhvien.dll
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/Quanlysinhvien.pdb
+/Users/bbysharp/Apps/cybersoft_source/chapter_testing/Quanlysinhvien/obj/Debug/net8.0/ref/Quanlysinhvien.dll

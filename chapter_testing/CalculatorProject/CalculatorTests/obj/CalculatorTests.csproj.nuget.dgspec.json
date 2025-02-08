@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorTests/CalculatorTests.csproj": {}
+  },
+  "projects": {
+    "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorLibrary/CalculatorLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorLibrary/CalculatorLibrary.csproj",
+        "projectName": "CalculatorLibrary",
+        "projectPath": "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorLibrary/CalculatorLibrary.csproj",
+        "packagesPath": "/Users/bbysharp/.nuget/packages/",
+        "outputPath": "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/bbysharp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorTests/CalculatorTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorTests/CalculatorTests.csproj",
+        "projectName": "CalculatorTests",
+        "projectPath": "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorTests/CalculatorTests.csproj",
+        "packagesPath": "/Users/bbysharp/.nuget/packages/",
+        "outputPath": "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorTests/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/bbysharp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorLibrary/CalculatorLibrary.csproj": {
+                "projectPath": "/Users/bbysharp/Apps/cybersoft_source/chapter_testing/CalculatorProject/CalculatorLibrary/CalculatorLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

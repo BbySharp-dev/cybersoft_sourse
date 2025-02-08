@@ -19,6 +19,7 @@
       "packagesPath": "/Users/bbysharp/.nuget/packages/",
       "outputPath": "/Users/bbysharp/Apps/cybersoft_source/chapter_branium/c#methods/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/bbysharp/.nuget/NuGet/NuGet.Config"
       ],

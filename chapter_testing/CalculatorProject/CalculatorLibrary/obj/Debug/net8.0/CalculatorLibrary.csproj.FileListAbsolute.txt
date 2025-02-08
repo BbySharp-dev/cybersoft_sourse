@@ -1,0 +1,11 @@
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/bin/Debug/net8.0/CalculatorLibrary.deps.json
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/bin/Debug/net8.0/CalculatorLibrary.dll
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/bin/Debug/net8.0/CalculatorLibrary.pdb
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/CalculatorLibrary.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/CalculatorLibrary.AssemblyInfo.cs
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/CalculatorLibrary.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/CalculatorLibrary.dll
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/refint/CalculatorLibrary.dll
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/CalculatorLibrary.pdb
+/Users/bbysharp/Apps/dotnet/CalculatorProject/CalculatorLibrary/obj/Debug/net8.0/ref/CalculatorLibrary.dll
