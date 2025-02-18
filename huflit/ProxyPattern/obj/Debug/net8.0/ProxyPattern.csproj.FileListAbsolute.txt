@@ -1,0 +1,15 @@
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/bin/Debug/net8.0/ProxyPattern
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/bin/Debug/net8.0/ProxyPattern.deps.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/bin/Debug/net8.0/ProxyPattern.runtimeconfig.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/bin/Debug/net8.0/ProxyPattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/bin/Debug/net8.0/ProxyPattern.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/refint/ProxyPattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ProxyPattern.genruntimeconfig.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/ProxyPattern/obj/Debug/net8.0/ref/ProxyPattern.dll

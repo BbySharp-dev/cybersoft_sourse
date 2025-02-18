@@ -1,0 +1,15 @@
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/bin/Debug/net8.0/FactoryMethodDemo
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/bin/Debug/net8.0/FactoryMethodDemo.deps.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/bin/Debug/net8.0/FactoryMethodDemo.runtimeconfig.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/bin/Debug/net8.0/FactoryMethodDemo.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/bin/Debug/net8.0/FactoryMethodDemo.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/refint/FactoryMethodDemo.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/FactoryMethodDemo.genruntimeconfig.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryMethodDemo/obj/Debug/net8.0/ref/FactoryMethodDemo.dll

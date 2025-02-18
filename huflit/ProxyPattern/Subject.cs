@@ -1,6 +1,4 @@
-namespace DefaultNamespace;
-
-public class Subject
+public abstract class Subject
 {
-    
+    public abstract void DoSomeWork();
 }

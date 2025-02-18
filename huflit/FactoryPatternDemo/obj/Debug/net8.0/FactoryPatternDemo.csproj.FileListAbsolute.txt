@@ -1,0 +1,15 @@
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/bin/Debug/net8.0/FactoryPatternDemo
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/bin/Debug/net8.0/FactoryPatternDemo.deps.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/bin/Debug/net8.0/FactoryPatternDemo.runtimeconfig.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/bin/Debug/net8.0/FactoryPatternDemo.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/bin/Debug/net8.0/FactoryPatternDemo.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/refint/FactoryPatternDemo.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/FactoryPatternDemo.genruntimeconfig.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/FactoryPatternDemo/FactoryPatternDemo/obj/Debug/net8.0/ref/FactoryPatternDemo.dll
