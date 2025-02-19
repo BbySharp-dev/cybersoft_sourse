@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/obj/Debug/net8.0/compressed/r9ubpoxlf6.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/obj/Debug/net8.0/scopedcss/bundle/session23_blazorwasm.styles.css",
+      "PackagePath": "staticwebassets/session23_blazorwasm.styles.css"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/bbysharp/Apps/cybersoft_source/chapter_blazor/session23_blazorwasm/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.session23_blazorwasm.props",
+      "PackagePath": "build\\session23_blazorwasm.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.session23_blazorwasm.props",
+      "PackagePath": "buildMultiTargeting\\session23_blazorwasm.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.session23_blazorwasm.props",
+      "PackagePath": "buildTransitive\\session23_blazorwasm.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.session23_blazorwasm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
