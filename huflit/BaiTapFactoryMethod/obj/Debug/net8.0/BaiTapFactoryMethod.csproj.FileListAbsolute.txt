@@ -1,0 +1,15 @@
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/bin/Debug/net8.0/BaiTapFactoryMethod
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/bin/Debug/net8.0/BaiTapFactoryMethod.deps.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/bin/Debug/net8.0/BaiTapFactoryMethod.runtimeconfig.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/bin/Debug/net8.0/BaiTapFactoryMethod.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/bin/Debug/net8.0/BaiTapFactoryMethod.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/refint/BaiTapFactoryMethod.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/BaiTapFactoryMethod.genruntimeconfig.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/BaiTapFactoryMethod/obj/Debug/net8.0/ref/BaiTapFactoryMethod.dll
