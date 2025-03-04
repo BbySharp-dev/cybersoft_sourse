@@ -1,0 +1,15 @@
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/bin/Debug/net8.0/BridgePattern
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/bin/Debug/net8.0/BridgePattern.deps.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/bin/Debug/net8.0/BridgePattern.runtimeconfig.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/bin/Debug/net8.0/BridgePattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/bin/Debug/net8.0/BridgePattern.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.AssemblyInfoInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.AssemblyInfo.cs
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.csproj.CoreCompileInputs.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.sourcelink.json
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/refint/BridgePattern.dll
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.pdb
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/BridgePattern.genruntimeconfig.cache
+/Users/bbysharp/Apps/cybersoft_source/huflit/BridgePattern/obj/Debug/net8.0/ref/BridgePattern.dll

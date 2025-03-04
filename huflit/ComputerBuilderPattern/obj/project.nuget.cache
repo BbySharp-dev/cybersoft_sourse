@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pSRRdvSyTbo=",
+  "dgSpecHash": "YvbEdg72dzM=",
   "success": true,
   "projectFilePath": "/Users/bbysharp/Apps/cybersoft_source/huflit/ComputerBuilderPattern/ComputerBuilderPattern.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/bbysharp/.nuget/packages/selenium.support/4.29.0/selenium.support.4.29.0.nupkg.sha512",
+    "/Users/bbysharp/.nuget/packages/selenium.webdriver/4.29.0/selenium.webdriver.4.29.0.nupkg.sha512",
+    "/Users/bbysharp/.nuget/packages/selenium.webdriver.chromedriver/133.0.6943.12600/selenium.webdriver.chromedriver.133.0.6943.12600.nupkg.sha512"
+  ],
   "logs": []
 }
