@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zGc7WYESEkA=",
+  "success": true,
+  "projectFilePath": "/Users/bbysharp/Apps/cybersoft_source/exercises/bai_tap_buoi_13/bai_tap_buoi_13_a/bai_tap_buoi_13.csproj",
+  "expectedPackageFiles": [
+    "/Users/bbysharp/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

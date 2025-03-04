@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDemo", "Factor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session30_airbnb", "..\..\chapter_blazor\session30_airbnb\session30_airbnb.csproj", "{3A20BC0D-A5F5-4A76-82C9-2F35509BC260}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitap_buoi25_blazor", "..\..\exercises\baitap_buoi25_blazor\baitap_buoi25_blazor.csproj", "{EA8F7682-3BA2-4C59-BBC5-7BAB671C12B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitap_buoi28_form", "..\..\exercises\baitap_buoi28_form\baitap_buoi28_form.csproj", "{566FABA5-F8B3-422E-9167-7F76C42F962A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{3A20BC0D-A5F5-4A76-82C9-2F35509BC260}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A20BC0D-A5F5-4A76-82C9-2F35509BC260}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A20BC0D-A5F5-4A76-82C9-2F35509BC260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8F7682-3BA2-4C59-BBC5-7BAB671C12B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8F7682-3BA2-4C59-BBC5-7BAB671C12B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8F7682-3BA2-4C59-BBC5-7BAB671C12B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8F7682-3BA2-4C59-BBC5-7BAB671C12B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{566FABA5-F8B3-422E-9167-7F76C42F962A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566FABA5-F8B3-422E-9167-7F76C42F962A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566FABA5-F8B3-422E-9167-7F76C42F962A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566FABA5-F8B3-422E-9167-7F76C42F962A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

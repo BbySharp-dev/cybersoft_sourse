@@ -1,0 +1,75 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = baitap_buoi25_blazor
+build_property.RootNamespace = baitap_buoi25_blazor
+build_property.ProjectDir = /Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Components/About.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BYm91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Components/Award.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Bd2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Components/Education.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FZHVjYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Components/Experiences.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FeHBlcmllbmNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Components/Interests.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9JbnRlcmVzdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Components/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Components/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ta2lsbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Pages/Porfolio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9yZm9saW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Pages/ProductCar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdENhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi25_blazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kcsga5zeca

@@ -1,0 +1,101 @@
+@page "/course-registration"
+@using System.ComponentModel.DataAnnotations
+
+<h3>Course Registration Form</h3>
+
+<EditForm Model="registrationForm" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+
+    <!-- Họ và tên -->
+    <div>
+        <label>Họ và Tên:</label>
+        <InputText @bind-Value="registrationForm.FullName" class="form-control" />
+        <ValidationMessage For="@(() => registrationForm.FullName)" class="text-danger" />
+    </div>
+
+    <!-- Email -->
+    <div>
+        <label>Email:</label>
+        <InputText @bind-Value="registrationForm.Email" class="form-control" />
+        <ValidationMessage For="@(() => registrationForm.Email)" class="text-danger" />
+    </div>
+
+    <!-- Số điện thoại -->
+    <div>
+        <label>Số điện thoại:</label>
+        <InputText @bind-Value="registrationForm.PhoneNumber" class="form-control" />
+        <ValidationMessage For="@(() => registrationForm.PhoneNumber)" class="text-danger" />
+    </div>
+
+    <!-- Chọn khóa học -->
+    <div>
+        <label>Chọn khóa học:</label>
+        <InputSelect @bind-Value="registrationForm.SelectedCourse" class="form-control">
+            <option value="">-- Chọn khóa học --</option>
+            <option value="Lập trình C#">Lập trình C#</option>
+            <option value="Lập trình Blazor">Lập trình Blazor</option>
+            <option value="Khoa học dữ liệu">Khoa học dữ liệu</option>
+        </InputSelect>
+        <ValidationMessage For="@(() => registrationForm.SelectedCourse)" class="text-danger" />
+    </div>
+
+    <!-- Hình thức học -->
+    <div>
+        <label>Hình thức học:</label>
+        <InputSelect @bind-Value="registrationForm.StudyMode" class="form-control">
+            <option value="">-- Chọn hình thức học --</option>
+            <option value="Online">Học Online</option>
+            <option value="Offline">Học Offline</option>
+        </InputSelect>
+        <ValidationMessage For="@(() => registrationForm.StudyMode)" class="text-danger" />
+    </div>
+
+
+    <!-- Ngày bắt đầu mong muốn -->
+    <div>
+        <label>Ngày bắt đầu mong muốn:</label>
+        <InputDate @bind-Value="registrationForm.PreferredStartDate" class="form-control" />
+        <ValidationMessage For="@(() => registrationForm.PreferredStartDate)" class="text-danger" />
+    </div>
+
+    <!-- Bình luận hoặc ghi chú -->
+    <div>
+        <label>Bình luận hoặc ghi chú:</label>
+        <InputTextArea @bind-Value="registrationForm.Comments" class="form-control" rows="3" />
+    </div>
+
+    <!-- Đồng ý điều khoản -->
+    <div>
+        <InputCheckbox @bind-Value="registrationForm.TermsAccepted" />
+        <label> Tôi đồng ý với điều khoản và chính sách.</label>
+        <ValidationMessage For="@(() => registrationForm.TermsAccepted)" class="text-danger" />
+    </div>
+
+    <!-- Nút đăng ký -->
+    <button type="submit" class="btn btn-success">Đăng ký</button>
+
+    <!-- Thông báo thành công -->
+    @if (isSubmitted)
+    {
+        <p class="text-success">Đăng ký thành công!</p>
+    }
+</EditForm>
+
+@code {
+    private CourseRegistrationModel registrationForm = new CourseRegistrationModel();
+    private bool isSubmitted = false;
+
+    private void HandleSubmit()
+    {
+        isSubmitted = true;
+        Console.WriteLine("Form đăng ký đã được gửi!");
+        Console.WriteLine($"Họ và tên: {registrationForm.FullName}");
+        Console.WriteLine($"Email: {registrationForm.Email}");
+        Console.WriteLine($"Số điện thoại: {registrationForm.PhoneNumber}");
+        Console.WriteLine($"Khóa học: {registrationForm.SelectedCourse}");
+        Console.WriteLine($"Hình thức học: {registrationForm.StudyMode}");
+        Console.WriteLine($"Ngày bắt đầu: {registrationForm.PreferredStartDate}");
+        Console.WriteLine($"Ghi chú: {registrationForm.Comments}");
+        Console.WriteLine($"Đồng ý điều khoản: {registrationForm.TermsAccepted}");
+    }
+}

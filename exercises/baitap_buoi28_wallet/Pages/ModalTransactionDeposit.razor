@@ -1,0 +1,93 @@
+<!-- Modal trigger button -->
+<button 
+    class="btn btn-success" 
+    data-bs-toggle="modal"
+    data-bs-target="#modal-deposit">Deposit</button>
+
+<!-- Modal Body -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div
+    class="modal fade"
+    id="modal-deposit"
+    tabindex="-1"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    
+    role="dialog"
+    aria-labelledby="modalTitleId"
+    aria-hidden="true"
+>
+    <div
+        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+        role="document"
+    >
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitleId">
+                    Deposit Money
+                </h5>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+            </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="w-100 text-start">Amount</label>
+                        <input type="number" @onchange="@(e=>onChangeMoneyDeposit(e))" class="form-control" />
+                        @if(ErrorMessage.Length != 0){
+                            <label class="text-danger w-100 text-start">@ErrorMessage</label>
+                        }
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                    >
+                    Close
+                    </button>
+                    <button type="button" class="btn btn-primary" @onclick="AddListTransactionHistory">OK</button>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+@code{
+    [Parameter]
+    public double moneyWallet {get; set;}
+    [Parameter]
+    public EventCallback<TransactionHistoryVM> eventAddListTransactionHistory {get; set;}
+    public TransactionHistoryVM transaction = new TransactionHistoryVM(){
+        TransactionName = "Deposit",
+        MoneyTransaction = 0
+    };
+    private string ErrorMessage {get;set;} = string.Empty;
+
+    private void onChangeMoneyDeposit(ChangeEventArgs e){
+        double moneyDeposit = Convert.ToDouble(string.IsNullOrEmpty(e.Value.ToString())? 0 : e.Value.ToString());
+        checkMoneyDeposit(moneyDeposit);
+    }
+    private bool checkMoneyDeposit(double moneyDeposit){
+        if(0<moneyDeposit && moneyDeposit<= double.MaxValue){
+            ErrorMessage = string.Empty;
+            transaction.MoneyTransaction = moneyDeposit;
+            return true;
+        }
+        else{
+            transaction.MoneyTransaction = 0;
+            ErrorMessage = "Số tiền nạp phải là một số dương hợp lệ.";
+            return false;
+        }
+    }
+    private void AddListTransactionHistory(){
+        if(checkMoneyDeposit(transaction.MoneyTransaction)){
+            transaction.CreatedDate = DateTime.Now.ToString("dd MMM h:mmtt", CultureInfo.InvariantCulture).ToLower();
+            eventAddListTransactionHistory.InvokeAsync(transaction);
+        }
+    }
+}

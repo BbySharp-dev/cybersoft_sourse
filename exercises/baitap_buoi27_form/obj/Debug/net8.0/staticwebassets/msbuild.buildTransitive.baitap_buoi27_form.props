@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/baitap_buoi27_form.props" />
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/baitap_buoi27_form.props" />
+</Project>

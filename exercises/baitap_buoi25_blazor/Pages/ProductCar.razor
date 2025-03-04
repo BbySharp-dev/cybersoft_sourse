@@ -1,0 +1,40 @@
+@page "/product-car"
+
+<PageTitle>Change Car Color</PageTitle>
+
+<div class="container text-center mt-5">
+    <h2 class="text-primary mb-4">🚗 Change Car Color</h2>
+
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-8">
+            <div class="car-container">
+                <img src="@selectedCarImg" class="car-image" alt="Car Image">
+            </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h5 class="mb-3">Choose a color:</h5>
+            <button class="btn btn-danger btn-lg w-100 mb-2" @onclick="() => ChangeCarColor(CarColor.Red)">Red</button>
+            <button class="btn btn-secondary btn-lg w-100 mb-2"
+                @onclick="() => ChangeCarColor(CarColor.Silver)">Silver</button>
+            <button class="btn btn-dark btn-lg w-100" @onclick="() => ChangeCarColor(CarColor.Black)">Black</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string selectedCarImg = "img/products/steel-car.jpg";
+
+    private enum CarColor { Red, Silver, Black }
+
+    private void ChangeCarColor(CarColor color)
+    {
+        selectedCarImg = color switch
+        {
+            CarColor.Red => "img/products/red-car.jpg",
+            CarColor.Silver => "img/products/silver-car.jpg",
+            CarColor.Black => "img/products/black-car.jpg",
+            _ => "img/products/steel-car.jpg"
+        };
+    }
+}

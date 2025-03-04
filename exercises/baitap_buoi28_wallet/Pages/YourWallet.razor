@@ -1,0 +1,58 @@
+@page "/YourWallet"
+@layout MainLayout
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-4 p-3 bg-black rounded">
+            <MyWallet moneyWallet="@MoneyWallet">
+                <ModalTransactionDeposit moneyWallet="@MoneyWallet" eventAddListTransactionHistory="@AddListTransactionHistory"></ModalTransactionDeposit>
+                <ModalTransactionWithdraw moneyWallet="@MoneyWallet" eventAddListTransactionHistory="@AddListTransactionHistory"></ModalTransactionWithdraw>
+            </MyWallet>
+            
+            <h3 class="text-center text-white">Transaction History</h3>
+            <div class="rounded bg-secondary-subtle">
+                <div class="container-fluid">
+                    @for (int i = historyVMs.Count - 1; i >= 0; i--)
+                    {
+                        if(i == historyVMs.Count - 1){
+                            <div class="row p-2">
+                                <div class="col fw-bold text-start">@historyVMs[i].TransactionName</div>
+                                <div class="col fw-bold text-center">$@historyVMs[i].MoneyTransaction.ToString("N2", CultureInfo.GetCultureInfo("en-US"))</div>
+                                <div class="col fw-bold text-end">@historyVMs[i].CreatedDate</div>
+                            </div>
+                        }
+                        else{
+                            <div class="row p-2 border-top border-success-subtle">
+                                <div class="col fw-bold text-start">@historyVMs[i].TransactionName</div>
+                                <div class="col fw-bold text-center">$@historyVMs[i].MoneyTransaction.ToString("N2", CultureInfo.GetCultureInfo("en-US"))</div>
+                                <div class="col fw-bold text-end">@historyVMs[i].CreatedDate</div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+@code {
+    private double MoneyWallet {get; set;} = 2499.73;
+
+    private List<TransactionHistoryVM> historyVMs = new List<TransactionHistoryVM>(){
+        new TransactionHistoryVM(){ TransactionName = "Deposit", MoneyTransaction = 500, CreatedDate = "19 Jan 3:00pm"},
+        new TransactionHistoryVM(){ TransactionName = "Withdraw", MoneyTransaction = 200, CreatedDate = "20 Jan 10:00pm"},
+        new TransactionHistoryVM(){ TransactionName = "Withdraw", MoneyTransaction = 200, CreatedDate = "20 Jan 10:00pm"},
+        new TransactionHistoryVM(){ TransactionName = "Deposit", MoneyTransaction = 500, CreatedDate = "19 Jan 3:00pm"},
+    };
+
+    private void AddListTransactionHistory(TransactionHistoryVM transaction){
+        historyVMs.Add(transaction);
+        if(transaction.TransactionName.ToLower().Equals("deposit")){
+            MoneyWallet+=transaction.MoneyTransaction;
+        }
+        else{
+            MoneyWallet-=transaction.MoneyTransaction;
+        }
+    }
+}

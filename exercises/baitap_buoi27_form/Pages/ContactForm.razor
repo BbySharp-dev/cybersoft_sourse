@@ -1,0 +1,90 @@
+@page "/contact-form"
+@using Microsoft.AspNetCore.Components.Forms
+@using System.ComponentModel.DataAnnotations
+
+<h3>Form Liên Hệ Khách Hàng</h3>
+
+<EditForm Model="contactForm" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+
+    <!-- Họ và Tên -->
+    <div>
+        <label>Họ và Tên:</label>
+        <InputText @bind-Value="contactForm.FullName" class="form-control" />
+        <ValidationMessage For="@(() => contactForm.FullName)" class="text-danger" />
+    </div>
+
+    <!-- Email -->
+    <div>
+        <label>Email:</label>
+        <InputText @bind-Value="contactForm.Email" class="form-control" />
+        <ValidationMessage For="@(() => contactForm.Email)" class="text-danger" />
+    </div>
+
+    <!-- Số điện thoại -->
+    <div>
+        <label>Số điện thoại:</label>
+        <InputText @bind-Value="contactForm.PhoneNumber" class="form-control" />
+        <ValidationMessage For="@(() => contactForm.PhoneNumber)" class="text-danger" />
+    </div>
+
+    <!-- Địa chỉ -->
+    <div>
+        <label>Địa chỉ:</label>
+        <InputText @bind-Value="contactForm.Address" class="form-control" />
+        <ValidationMessage For="@(() => contactForm.Address)" class="text-danger" />
+    </div>
+
+    <!-- Nội dung tin nhắn -->
+    <div>
+        <label>Nội dung tin nhắn:</label>
+        <InputTextArea @bind-Value="contactForm.Message" class="form-control" rows="4" />
+        <ValidationMessage For="@(() => contactForm.Message)" class="text-danger" />
+    </div>
+
+    <!-- Chọn dịch vụ -->
+    <div>
+        <label>Dịch vụ cần tư vấn:</label>
+        <InputSelect @bind-Value="contactForm.SelectedService" class="form-control">
+            <option value="">-- Chọn dịch vụ --</option>
+            <option value="Tư vấn công nghệ">Tư vấn công nghệ</option>
+            <option value="Hỗ trợ khách hàng">Hỗ trợ khách hàng</option>
+            <option value="Dịch vụ bảo trì">Dịch vụ bảo trì</option>
+        </InputSelect>
+        <ValidationMessage For="@(() => contactForm.SelectedService)" class="text-danger" />
+    </div>
+
+    <!-- Đồng ý điều khoản -->
+    <div>
+        <InputCheckbox @bind-Value="contactForm.TermsAccepted" />
+        <label> Tôi đồng ý với điều khoản và chính sách.</label>
+        <ValidationMessage For="@(() => contactForm.TermsAccepted)" class="text-danger" />
+    </div>
+
+    <!-- Nút gửi -->
+    <button type="submit" class="btn btn-primary">Gửi</button>
+
+    <!-- Thông báo thành công -->
+    @if (isSubmitted)
+    {
+        <p class="text-success">Gửi form thành công!</p>
+    }
+</EditForm>
+
+@code {
+    private ContactFormModel contactForm = new ContactFormModel();
+    private bool isSubmitted = false;
+
+    private void HandleSubmit()
+    {
+        isSubmitted = true;
+        Console.WriteLine("Form đã được gửi!");
+        Console.WriteLine($"Họ và tên: {contactForm.FullName}");
+        Console.WriteLine($"Email: {contactForm.Email}");
+        Console.WriteLine($"Số điện thoại: {contactForm.PhoneNumber}");
+        Console.WriteLine($"Địa chỉ: {contactForm.Address}");
+        Console.WriteLine($"Tin nhắn: {contactForm.Message}");
+        Console.WriteLine($"Dịch vụ: {contactForm.SelectedService}");
+        Console.WriteLine($"Đồng ý điều khoản: {contactForm.TermsAccepted}");
+    }
+}

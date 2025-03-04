@@ -1,0 +1,47 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = baitap_buoi27_form
+build_property.RootNamespace = baitap_buoi27_form
+build_property.ProjectDir = /Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form/Pages/ContactForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdEZvcm0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form/Pages/CourseRegistration.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291cnNlUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-le75kytmbd
+
+[/Users/bbysharp/Apps/cybersoft_source/exercises/baitap_buoi27_form/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-nzhkjdre1o
